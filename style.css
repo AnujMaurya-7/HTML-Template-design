@@ -134,7 +134,7 @@ header {
 }
 #home::before {
   content: "";
-  background-color: black;
+  background-color: rgb(37, 34, 58);
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -184,7 +184,7 @@ header {
 /* wrapper  */
 
 .wrapper {
-  background: url(/imgs/pexels-burst-373934.jpg) no-repeat center center/cover;
+  background: url(imgs/pexels-burst-373934.jpg) no-repeat center center/cover;
   background-attachment: fixed;
   position: relative;
   min-height: 350px;
@@ -268,7 +268,7 @@ header {
 /* second wrapper  */
 
 .wrapper-sec {
-  background: url(/imgs/pexels-burst-373934.jpg) no-repeat center center/cover;
+  background: url(imgs/pexels-burst-373934.jpg) no-repeat center center/cover;
   background-attachment: fixed;
   position: relative;
   min-height: 350px;
@@ -345,6 +345,7 @@ input[type="email"],
   background-color: rgba(230, 230, 230, 0.349);
 }
 .input-all:focus {
+  outline: none;
   border: 2px solid var(--btn-background);
   box-shadow: 0.5px 0.5px 3px 1px var(--btn-background);
 }
